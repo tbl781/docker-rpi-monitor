@@ -1,6 +1,6 @@
-FROM resin/rpi-raspbian:latest
+FROM balenalib/rpi-raspbian:latest
 
-LABEL maintainer="Michael Miklis / <info@michaelmiklis.de>"
+LABEL maintainer="Thilo Bleisteiner / <thilo.bleisteiner@outlook.com>"
 
 RUN [ "cross-build-start" ]
 
